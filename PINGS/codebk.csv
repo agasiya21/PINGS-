@@ -1,0 +1,28 @@
+code,label
+record_id,Record ID
+sex,Gender
+age,Age
+edu,Education
+other_specify,Other
+stroke,Stroke
+relative_stroke,Relative with Stroke 
+occupation,Occupation
+other_occup,Other 
+facility,Facility 
+facility_level,Facility Level 
+unit,Department/Unit
+location,Location/Region
+experience,Work Experience
+facility_other,Other Facility
+approved,PINGS meets my Approval
+appealing,PINGS is Appealing to me
+like,I like PINGS
+welcome,I welcome PINGS
+fitting,PINGS seems fitting
+suitable,PINGS seems suitable
+applicable,PINGS seems applicable
+good_match,PINGS seems like a good match(for stroke)
+implementable,PINGS is implementable
+possible,PINGS seems possible
+doable,PINGS seems doable
+easy,PINGS seems easy to use

@@ -1,0 +1,26 @@
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+getReport <- function(x, values = "label", head="label"){
+  df <- POST(url = 'https://redcap.ghid-kccr.org/api/', 
+             body = list(
+               content='report',
+               format='json',
+               report_id=x,
+               csvDelimiter='',
+               rawOrLabel= values,
+               token = "ABDAC1D1DCB2B4518AEE74B5914E8E31",
+               rawOrLabelHeaders= head,
+               exportCheckboxLabel='false',
+               returnFormat='json'), 
+             encode = "form")
+  content(df, as = "text") %>% 
+    fromJSON() %>% 
+    return()
+}
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+sero <- getReport(106)
+```
+
+'.jc$3AT7)tk
